@@ -209,124 +209,124 @@ cr.plugins_.GameAnalytics = function(runtime)
     {
         if(this.enableInfoLog)
         {
-            ga.GameAnalytics.setEnabledInfoLog(true);
+            gameanalytics.GameAnalytics.setEnabledInfoLog(true);
         }
         if(this.enableVerboseLog)
         {
-            ga.GameAnalytics.setEnabledVerboseLog(true);
+            gameanalytics.GameAnalytics.setEnabledVerboseLog(true);
         }
         if(this.enableManualSessionHandling)
         {
-            ga.GameAnalytics.setEnabledManualSessionHandling(true);
+            gameanalytics.GameAnalytics.setEnabledManualSessionHandling(true);
         }
 
         if(this.customDimensions01.length > 0)
         {
-            ga.GameAnalytics.configureAvailableCustomDimensions01(this.customDimensions01);
+            gameanalytics.GameAnalytics.configureAvailableCustomDimensions01(this.customDimensions01);
         }
         if(this.customDimensions02.length > 0)
         {
-            ga.GameAnalytics.configureAvailableCustomDimensions02(this.customDimensions02);
+            gameanalytics.GameAnalytics.configureAvailableCustomDimensions02(this.customDimensions02);
         }
         if(this.customDimensions03.length > 0)
         {
-            ga.GameAnalytics.configureAvailableCustomDimensions03(this.customDimensions03);
+            gameanalytics.GameAnalytics.configureAvailableCustomDimensions03(this.customDimensions03);
         }
         if(this.resourceCurrencies.length > 0)
         {
-            ga.GameAnalytics.configureAvailableResourceCurrencies(this.resourceCurrencies);
+            gameanalytics.GameAnalytics.configureAvailableResourceCurrencies(this.resourceCurrencies);
         }
         if(this.resourceItemTypes.length > 0)
         {
-            ga.GameAnalytics.configureAvailableResourceItemTypes(this.resourceItemTypes);
+            gameanalytics.GameAnalytics.configureAvailableResourceItemTypes(this.resourceItemTypes);
         }
 
-        ga.GameAnalytics.configureBuild(this.build);
+        gameanalytics.GameAnalytics.configureBuild(this.build);
 
-        var VERSION = "1.0.0";
-        ga.GameAnalytics.configureSdkGameEngineVersion("construct " + VERSION);
+        var VERSION = "1.0.1";
+        gameanalytics.GameAnalytics.configureSdkGameEngineVersion("construct " + VERSION);
 
-        ga.GameAnalytics.initialize(this.gameKey, this.secretKey);
+        gameanalytics.GameAnalytics.initialize(this.gameKey, this.secretKey);
     };
 
     Acts.prototype.addBusinessEvent = function (currency, amount, itemType, itemId, cartType)
     {
-        ga.GameAnalytics.addBusinessEvent(currency, amount, itemType, itemId, cartType);
+        gameanalytics.GameAnalytics.addBusinessEvent(currency, amount, itemType, itemId, cartType);
     };
 
     Acts.prototype.addResourceEvent = function (flowType, currency, amount, itemType, itemId)
     {
-        ga.GameAnalytics.addResourceEvent(flowType, currency, amount, itemType, itemId);
+        gameanalytics.GameAnalytics.addResourceEvent(flowType, currency, amount, itemType, itemId);
     };
 
     Acts.prototype.addProgressionEvent = function (progressionStatus, progression01, progression02, progression03)
     {
-        ga.GameAnalytics.addProgressionEvent(progressionStatus, progression01, progression02, progression03);
+        gameanalytics.GameAnalytics.addProgressionEvent(progressionStatus, progression01, progression02, progression03);
     };
 
     Acts.prototype.addProgressionEventWithScore = function (progressionStatus, progression01, progression02, progression03, score)
     {
-        ga.GameAnalytics.addProgressionEvent(progressionStatus, progression01, progression02, progression03, score);
+        gameanalytics.GameAnalytics.addProgressionEvent(progressionStatus, progression01, progression02, progression03, score);
     };
 
     Acts.prototype.addDesignEvent = function (eventId)
     {
-        ga.GameAnalytics.addDesignEvent(eventId);
+        gameanalytics.GameAnalytics.addDesignEvent(eventId);
     };
 
     Acts.prototype.addDesignEventWithValue = function (eventId, value)
     {
-        ga.GameAnalytics.addDesignEvent(eventId, value);
+        gameanalytics.GameAnalytics.addDesignEvent(eventId, value);
     };
 
     Acts.prototype.addErrorEvent = function (severity, message)
     {
-        ga.GameAnalytics.addErrorEvent(severity, message);
+        gameanalytics.GameAnalytics.addErrorEvent(severity, message);
     };
 
     Acts.prototype.setEnabledManualSessionHandling = function (flag)
     {
-        ga.GameAnalytics.setEnabledManualSessionHandling(flag ? true : false);
+        gameanalytics.GameAnalytics.setEnabledManualSessionHandling(flag ? true : false);
     };
 
     Acts.prototype.setCustomDimension01 = function (dimension)
     {
-        ga.GameAnalytics.setCustomDimension01(dimension);
+        gameanalytics.GameAnalytics.setCustomDimension01(dimension);
     };
 
     Acts.prototype.setCustomDimension02 = function (dimension)
     {
-        ga.GameAnalytics.setCustomDimension02(dimension);
+        gameanalytics.GameAnalytics.setCustomDimension02(dimension);
     };
 
     Acts.prototype.setCustomDimension03 = function (dimension)
     {
-        ga.GameAnalytics.setCustomDimension03(dimension);
+        gameanalytics.GameAnalytics.setCustomDimension03(dimension);
     };
 
     Acts.prototype.setFacebookId = function (facebookId)
     {
-        ga.GameAnalytics.setFacebookId(facebookId);
+        gameanalytics.GameAnalytics.setFacebookId(facebookId);
     };
 
     Acts.prototype.setGender = function (gender)
     {
-        ga.GameAnalytics.setGender(gender);
+        gameanalytics.GameAnalytics.setGender(gender);
     };
 
     Acts.prototype.setBirthYear = function (birthYear)
     {
-        ga.GameAnalytics.setBirthYear(birthYear);
+        gameanalytics.GameAnalytics.setBirthYear(birthYear);
     };
 
     Acts.prototype.startSession = function ()
     {
-        ga.GameAnalytics.startSession();
+        gameanalytics.GameAnalytics.startSession();
     };
 
     Acts.prototype.endSession = function ()
     {
-        ga.GameAnalytics.endSession();
+        gameanalytics.GameAnalytics.endSession();
     };
 
     pluginProto.acts = new Acts();
