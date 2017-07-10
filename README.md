@@ -12,6 +12,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-CONSTRUCT/wi
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**1.0.2**
+* fixed minify bug
+
 **1.0.1**
 * updated namespace used for accessing javascript library
 
