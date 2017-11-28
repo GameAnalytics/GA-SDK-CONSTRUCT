@@ -3,15 +3,18 @@ GA-SDK-CONSTRUCT
 
 GameAnalytics Construct SDK.
 
-Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-CONSTRUCT/wiki).
+Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 
 > :information_source:
 > Requirements:<br/>
-> **Construct 2**
+> **Construct 2 or 3**
 
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**1.0.3**
+* added support for Construct 3
+
 **1.0.2**
 * fixed minify bug
 
@@ -20,4 +23,3 @@ Changelog
 
 **1.0.0**
 * initial release
-
