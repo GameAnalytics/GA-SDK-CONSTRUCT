@@ -6,7 +6,7 @@ GameAnalytics Construct SDK.
 Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 
 > :information_source:
-> The Construct SDK includes support for **HTML5**
+> The Construct SDK includes support for **HTML5**    
 > Requirements:<br/>
 > **Construct 2 or 3**
 
