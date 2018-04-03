@@ -13,6 +13,10 @@ Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**1.1.0**
+* added support for cordova export
+* remember to call 'cordova plugin add cordova-plugin-gameanalytics' in exported cordova project
+
 **1.0.3**
 * added support for Construct 3
 
