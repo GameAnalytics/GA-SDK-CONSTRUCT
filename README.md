@@ -13,6 +13,11 @@ Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**1.1.2**
+* fixed session length bug
+* fixed not allowing to add events when session is not started
+* added categories for actions
+
 **1.1.1**
 * added support for seperate keys for each platform
 * remember to call 'cordova plugin add cordova-plugin-device' when using cordova export
