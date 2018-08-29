@@ -13,6 +13,9 @@ Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.0.1**
+* fixes various bugs
+
 **2.0.0**
 * added command center functionality
 
