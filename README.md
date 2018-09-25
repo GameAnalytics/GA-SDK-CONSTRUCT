@@ -13,13 +13,7 @@ Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
-**2.0.6**
-* minify script fix for cordova export
-
-**2.0.5**
-* small fix for minify script for cordova export
-
-**2.0.4**
+**2.0.7**
 * fixed to be able to use minify script for cordova export
 
 **2.0.3**
