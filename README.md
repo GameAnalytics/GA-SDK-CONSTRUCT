@@ -13,6 +13,9 @@ Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.0.4**
+* fixed to be able to use minify script for cordova export
+
 **2.0.3**
 * added the possibility to set build number from actions
 
