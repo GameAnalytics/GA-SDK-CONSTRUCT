@@ -13,6 +13,9 @@ Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.1.0**
+* added support for c3 runtime
+
 **2.0.7**
 * fixed to be able to use minify script for cordova export
 
