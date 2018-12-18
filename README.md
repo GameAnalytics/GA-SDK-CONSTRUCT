@@ -13,6 +13,9 @@ Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.1.2**
+* fixed missing c3runtime files
+
 **2.1.1**
 * fixed business event vlidation
 
