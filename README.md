@@ -16,12 +16,6 @@ Changelog
 **2.2.0**
 * added enable/disable event submission function
 
-**2.1.0**
-* added enable/disable event submission function
-
-**2.2.0**
-* added enable/disable event submission function
-
 **2.1.2**
 * fixed missing c3runtime files
 
