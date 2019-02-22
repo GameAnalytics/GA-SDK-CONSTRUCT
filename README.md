@@ -5,6 +5,8 @@ GameAnalytics Construct SDK.
 
 Documentation can be found [here](https://gameanalytics.com/docs/construct-sdk).
 
+If you have any issues or feedback regarding the SDK, please contact our friendly support team [here](https://gameanalytics.com/contact).
+
 > :information_source:
 > The Construct SDK includes support for **HTML5** and **Android** and **iOS** when doing an Cordova export    
 > Requirements:<br/>
