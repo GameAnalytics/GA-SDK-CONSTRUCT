@@ -15,6 +15,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.1**
+* fixes to how to use command center functions
+
 **2.2.0**
 * added enable/disable event submission function
 
