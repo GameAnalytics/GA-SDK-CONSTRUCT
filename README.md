@@ -15,6 +15,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.3**
+* small fix to iscommandcenterready display text
+
 **2.2.2**
 * added missing code to c3 plugin
 
