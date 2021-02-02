@@ -15,6 +15,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**3.0.11**
+* updated client ts validator
+
 **3.0.10**
 * added support for module mode
 
