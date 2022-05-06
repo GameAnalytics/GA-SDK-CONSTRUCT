@@ -15,6 +15,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**3.0.14**
+* added specific version for gameanalytics cordova dependency
+
 **3.0.13**
 * added event uuid for events sent
 
